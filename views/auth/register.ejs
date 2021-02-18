@@ -1,0 +1,34 @@
+<% layout('layouts/boilerplate') %>
+    <div class="row">
+
+        <div style="width: 30%; margin: 25px auto;">
+            <h3 class="text-center">Login!</h3>
+            <form class="needs-validation" action="/register" method="POST" novalidate>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" autofocus name="email">
+                    <div class="valid-feedback">
+                        Looks good.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">username</label>
+                    <input type="text" class="form-control" id="username" name="username">
+                    <div class="valid-feedback">
+                        Looks good.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                    <div class="valid-feedback">
+                        Looks good.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success w-100">Register</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
